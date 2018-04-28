@@ -5,7 +5,8 @@ Het laatste [verhaal](siem-marie).
 
 ![](/utils/het-ulderink.jpg)
 
-Foto van mevr. A. Hulsing-Meulman. De boerderij [Het Uldrink] is bij de ruilverkaveling in de zestiger jaren gesloopt.
+Foto van mevr. A. Hulsing-Meulman. De boerderij [Het Ulderink] is bij de ruilverkaveling in de zestiger jaren gesloopt.
+
 [Het Ulderink]: https://familiepol.wordpress.com/onroerend-goed/oudleusen/t-ulriks/
 
 
