@@ -52,6 +52,7 @@ You also need to enumerate labels to define their order in the chart.
 * though `tasks` and `names` are passed in as arguments
   a rename seems impossible because of some global use
 * gradients for bars with an unknown end date
+* put chart in a div or prive some other to have the body width and height independent of the chart
 
 
 Page template for this repository
