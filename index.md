@@ -1,6 +1,14 @@
 Achtergronden en illustraties bij een stamboom
 ----------------------------------------------
 
+Het laatste [verhaal](siem-marie).
+
+![](/utils/het-ulderink.jpg)
+
+Foto van mevr. A. Hulsing-Meulman. De boerderij [Het Uldrink] is bij de ruilverkaveling in de zestiger jaren gesloopt.
+[Het Ulderink]: https://familiepol.wordpress.com/onroerend-goed/oudleusen/t-ulriks/
+
+
 ![Heuvellaan Tienhoven](/utils/heuvellaan-streetview.jpg)
 
 Zicht op het einde van de Heuvellaan in [Tienhoven], april 2010, Google StreetView.
