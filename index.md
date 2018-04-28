@@ -3,6 +3,8 @@ Achtergronden en illustraties bij een stamboom
 
 Het nieuwste [verhaal](siem-marie).
 
+Hieronder twee foto's gerelateerd aan het onstaan van beide achternamen.
+
 ![](/utils/het-ulderink.jpg)
 
 Foto van mevr. A. Hulsing-Meulman. De boerderij [Het Ulderink] is bij de ruilverkaveling in de zestiger jaren gesloopt.
@@ -15,7 +17,7 @@ Foto van mevr. A. Hulsing-Meulman. De boerderij [Het Ulderink] is bij de ruilver
 Zicht op het einde van de Heuvellaan in [Tienhoven], april 2010, Google StreetView.
 
 Bij de overburen van dit bosrijke perceel bracht de ongehuwde Maria van der Pol (1830 - 1911)
-haar eerste zonen ter wereld in '53 respectievelijk '55.
+haar eerste zonen ter wereld in '53 respectievelijk '55. Bij het huwelijk van sommige kinderen valt het "van der" weg uit de achternamen.
 Destijds was het adres Looidijk 20, nu is dat Heuvellaan 10.
 
 [TienHoven]: https://familiepol.wordpress.com/tienhoven/
