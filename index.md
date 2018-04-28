@@ -1,7 +1,7 @@
 Achtergronden en illustraties bij een stamboom
 ----------------------------------------------
 
-![Heuvellaan Tienhoven](/pol-ulderink.github.io/utils/heuvellaan-streetview.png)
+![Heuvellaan Tienhoven](/utils/cc-by-sa.png)
 Zicht op het einde van de Heuvellaan in [Tienhoven], april 2010, Google StreetView.
 
 Bij de overburen van dit bosrijke perceel bracht de ongehuwde Maria van der Pol (1830 - 1911)
