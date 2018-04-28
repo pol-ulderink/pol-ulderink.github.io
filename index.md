@@ -1,7 +1,7 @@
 Achtergronden en illustraties bij een stamboom
 ----------------------------------------------
 
-![Heuvellaan Tienhoven](/utils/heuvellaan-streetview.png)
+![Heuvellaan Tienhoven](/utils/heuvellaan-streetview.jpg)
 
 Zicht op het einde van de Heuvellaan in [Tienhoven], april 2010, Google StreetView.
 
