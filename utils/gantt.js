@@ -10,7 +10,7 @@ d3.gantt = function() {
   var FIXED_TIME_DOMAIN_MODE = "fixed";
 
   var margin = {
-    top : 20,
+    top : 0,
     right : 40,
     bottom : 20,
     left : 150
@@ -87,15 +87,15 @@ d3.gantt = function() {
       .append("rect")
       .attr("rx", 5)
       .attr("ry", 5)
-      .attr("class", function(d){ 
+      .attr("class", function(d){
         if(taskStatus[d.status] == null){ return "bar";}
         return taskStatus[d.status];
-      }) 
+      })
       .attr("y", 0)
       .attr("transform", rectTransform)
       .attr("height", function(d) { return 70; })
-      .attr("width", function(d) { 
-        return (x(d.endDate) - x(d.startDate)); 
+      .attr("width", function(d) {
+        return (x(d.endDate) - x(d.startDate));
       });
 
       svg.append("g")
@@ -124,23 +124,23 @@ d3.gantt = function() {
       .insert("rect",":first-child")
       .attr("rx", 5)
       .attr("ry", 5)
-      .attr("class", function(d){ 
+      .attr("class", function(d){
         if(taskStatus[d.status] == null){ return "bar";}
         return taskStatus[d.status];
-      }) 
+      })
       .transition()
       .attr("y", 0)
       .attr("transform", rectTransform)
       .attr("height", function(d) { return y.range()[1]; })
-      .attr("width", function(d) { 
-        return (x(d.endDate) - x(d.startDate)); 
+      .attr("width", function(d) {
+        return (x(d.endDate) - x(d.startDate));
       });
 
       rect.transition()
         .attr("transform", rectTransform)
         .attr("height", function(d) { return y.range()[1]; })
-        .attr("width", function(d) { 
-          return (x(d.endDate) - x(d.startDate)); 
+        .attr("width", function(d) {
+          return (x(d.endDate) - x(d.startDate));
         });
 
         rect.exit().remove();
