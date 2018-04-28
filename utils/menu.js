@@ -7,6 +7,12 @@ menu.append("p").append("a").attr("href", "http://creativecommons.org/licenses/b
   .attr("target", "_blank")
   .attr("rel", "license")
   .append("img").attr("src", "../utils/cc-by-sa.png")
+
+var ul = menu.append("ul")
+ul.append("li")
+  .append("a").attr("href", "siem-marie")
+  .text("logees van Siem en Marie")
+
 menu.append("p").append("a").attr("href", "https://familiepol.wordpress.com/contact/")
   .attr("target", "_blank")
   .text("contact")
