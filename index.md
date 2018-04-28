@@ -1,7 +1,7 @@
 Achtergronden en illustraties bij een stamboom
 ----------------------------------------------
 
-Het laatste [verhaal](siem-marie).
+Het nieuwste [verhaal](siem-marie).
 
 ![](/utils/het-ulderink.jpg)
 
