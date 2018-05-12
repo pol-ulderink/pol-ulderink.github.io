@@ -28,6 +28,7 @@ body {
 #banner h1 { margin-bottom: 0; }
 #banner p { margin: 0; }
 #banner a { color: black; font-size: 1.5em; }
+a[rel=history], a[rel=source] { margin-left: 1em; font-style: italic; text-decoration: none; }
 
 article { max-width: 40em; }
 p { margin-left: 0.5em; }
