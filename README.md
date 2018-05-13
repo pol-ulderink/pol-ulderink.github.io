@@ -31,18 +31,25 @@ You'll need a copy of the files from `../utils` used in the two snippets above
 (just the bottom section of the css which matches `bar-styles.js`)
 and your own version of `bar-chart.js`. The major part of the latter looks like:
 
-    d("m", "1888-06-13", "1973-12-24", "Frans Frederik Schneider"),
-    d("o", "1920-06-17", "1954-01-28", "8"),
+    d("m", "1888-06-13", "1973-12-24", "F.F. Schneider"),
+    d("r", "1920-06-17", "1954-01-28", "F.F. Schneider"),
     d("F", "1892-08-15", "1972", "Jannetje"),
-    d("o", "1954-11-25", "1959-08-20", "9"),
-    d("m", "1886-07-18", "1959-08-20", "Marnold Beekhof"),
-    d("o", "1948-05-13", "1949-02-21", "logé Jannetje"),
-    d("o", "1950-07-03", "1953-07-08", "logé Jannetje"),
+    d("r", "1954-11-25", "1959-08-20", "Jannetje"),
+    d("m", "1886-07-18", "1959-08-20", "M. Beekhof"),
+    d("o", "1945-11-28", "1946-01-16", "logé Jan J"),
+    d("o", "1946-02-09", "1946-12-17", "logé Hendrika"),
 
 Each line defines four properties: a bar style (documented in `bar-styles.js`),
 two dates and the label of a line in the chart.
 A label may be repeated for multiple bars on the same line.
 You also need to enumerate labels to define their order in the chart.
+
+Some styling with JavaScript:
+
+    d3.selectAll(".tick line").attr("y1","-700") // line over all bars
+    d3.selectAll(".bar").attr("height","9").attr("rx","2").attr("rx","2") // bar height and rounded end
+    d3.selectAll(".bar-r").attr("height","7").attr("y","6") // bars spanning a relation overlap bars spanning a life
+
 
 
 ### Issues
@@ -52,7 +59,7 @@ You also need to enumerate labels to define their order in the chart.
 * though `tasks` and `names` are passed in as arguments
   a rename seems impossible because of some global use
 * gradients for bars with an unknown end date
-* put chart in a div or prive some other to have the body width and height independent of the chart
+* put chart in a div or to have the body width and height independent of the chart
 
 
 Page template for this repository

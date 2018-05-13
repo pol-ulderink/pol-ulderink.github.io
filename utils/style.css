@@ -39,10 +39,12 @@ figure { display: inline-block; vertical-align: bottom; padding: 0; margin: 0.5e
 figure, figure img { max-width: 150px; }
 figcaption { height: 3.5em; }
 
+#legend { margin-top: 0 }
+
 /* bar charts */
-.bar,
+.bar-r { fill: none; stroke: #000000; stroke-width: 2px; }
 .bar-o { fill: #bbbbbb; }
-.bar-M { fill: #0000ff; }
+.bar-M { fill: #6666ff; }
 .bar-m { fill: #bbbbff; }
 .bar-F { fill: #ff0000; }
 .bar-f { fill: #ffbbbb; }
