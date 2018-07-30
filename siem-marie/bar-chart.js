@@ -31,7 +31,9 @@ var tasks = [
   d("r", "1920-06-17", "1954-01-28", "Frans Frederik Schneider"),
   d("F", "1892-08-15", "1972", "Jannetje"),
   d("r", "1954-11-25", "1959-08-20", "Jannetje"),
+  d("r", "1961-03-01", "1971-10-07", "Jannetje"),
   d("m", "1886-07-18", "1959-08-20", "Marnold Beekhof"),
+  d("m", "1883-11-03", "1971-10-07", "Willem Klerk"),
 
   d("o", "1945-11-28", "1946-01-16", "logé Jan J"),
   d("o", "1946-02-09", "1946-12-17", "logé Hendrika"),
@@ -52,7 +54,7 @@ var names = [
   "--------------------",
   "Tijmen", "Clara Clazina Cobelens",
   "---------------------",
-  "Frans Frederik Schneider", "Jannetje", "Marnold Beekhof",
+  "Frans Frederik Schneider", "Jannetje", "Marnold Beekhof", "Willem Klerk",
   "bij Siem en Marie --------------",
   "logé Jan J", "logé Hendrika", "logé Jannetje", "logé Siem's tante"
 ]
