@@ -37,7 +37,7 @@ h2 { font-size: 1.1em }
 
 figure { display: inline-block; vertical-align: bottom; padding: 0; margin: 0.5em }
 figure, figure img { max-width: 150px; }
-figcaption { height: 3.5em; }
+figcaption { height: 4.5em; }
 
 #legend { margin-top: 0 }
 
