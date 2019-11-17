@@ -2,6 +2,10 @@ var tasks = [
 
   // 2000 betekent datum onbekend
 
+  d("M", "1855-08-28", "1919-02-21", "Johannes Pol"),
+  d("r", "1870-11-28", "1919-02-21", "Johannes Pol"),
+  d("F", "1852-07-16", "2000", "Jannetje Letter"),
+  
   d("f", "1877-11-16", "1928-10-19", "Adriana van Elst"),
   d("r", "1903-12-03", "1917-05-12", "Adriana van Elst"), // zoon https://www.wiewaswie.nl/nl/detail/47785846
   d("M", "1882-01-14", "1950-10-15", "Jan Johannes"),
@@ -44,6 +48,8 @@ var tasks = [
 
 ]
 var names = [
+  "Johannes Pol", "Jannetje Letter",
+  "----------------",
   "Adriana van Elst","Jan Johannes","Elfrieda Gertrude Marta Ilgner","dochter",
   "-----------------",
   "Johannes", "Johanna Maria Hengeveld",
