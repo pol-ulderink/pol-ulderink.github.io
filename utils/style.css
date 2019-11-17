@@ -43,7 +43,7 @@ figcaption { height: 3.5em; }
 
 /* bar charts */
 .bar-r { fill: none; stroke: #000000; stroke-width: 2px; }
-.bar-o { fill: #bbbbbb; }
+.bar-o { fill: #ffcc00; stroke: #ffcc00; stroke-width: 2px; }
 .bar-M { fill: #6666ff; }
 .bar-m { fill: #bbbbff; }
 .bar-F { fill: #ff0000; }

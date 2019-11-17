@@ -10,6 +10,7 @@ var tasks = [
   d("r", "1903-12-03", "1917-05-12", "Adriana van Elst"), // zoon https://www.wiewaswie.nl/nl/detail/47785846
   d("M", "1882-01-14", "1950-10-15", "Jan Johannes"),
   d("r", "1929-11-28", "1942-01-13", "Jan Johannes"),
+  d("o", "1945-11-28", "1946-01-16", "Jan Johannes"),
   d("f", "1889-11-16", "1942-01-13", "Elfrieda Gertrude Marta Ilgner"),
   d("f", "1933-03-27", "2000", "dochter"),
 
@@ -21,6 +22,8 @@ var tasks = [
   d("r", "1912-12-22", "1932-04-23","Otto R.H. Coenders"),
   d("F", "1887-04-16", "2000" ,"Hendrika"),
   d("r", "1933-04-20", "1941-09-06" ,"Hendrika"),
+  d("o", "1946-02-09", "1946-12-17", "Hendrika"),
+  d("o", "1948-08-30", "1950-11-18", "Hendrika"),
   d("m", "1898-07-31", "1941-09-06" ,"Joseph Philip Sanders"),
 
   d("F", "1889-02-02", "1970-02-24", "Maria"),
@@ -36,15 +39,13 @@ var tasks = [
   d("F", "1892-08-15", "1972", "Jannetje"),
   d("r", "1954-11-25", "1959-08-20", "Jannetje"),
   d("r", "1961-03-01", "1971-10-07", "Jannetje"),
+  d("o", "1948-05-13", "1949-02-21", "Jannetje"),
+  d("o", "1950-07-03", "1953-07-08", "Jannetje"),
   d("m", "1886-07-18", "1959-08-20", "Marnold Beekhof"),
   d("m", "1883-11-03", "1971-10-07", "Willem Klerk"),
 
-  d("o", "1945-11-28", "1946-01-16", "logé Jan J"),
-  d("o", "1946-02-09", "1946-12-17", "logé Hendrika"),
-  d("o", "1948-08-30", "1950-11-18", "logé Hendrika"),
-  d("o", "1948-05-13", "1949-02-21", "logé Jannetje"),
-  d("o", "1950-07-03", "1953-07-08", "logé Jannetje"),
-  d("o", "1962-03-14", "1962-04-26", "logé Siem's tante"),
+  d("f", "1962-03-14", "1962-04-26", "Siem's tante"),
+  d("o", "1962-03-14", "1962-04-26", "Siem's tante"),
 
 ]
 var names = [
@@ -61,8 +62,8 @@ var names = [
   "Tijmen", "Clara Clazina Cobelens",
   "---------------------",
   "Frans Frederik Schneider", "Jannetje", "Marnold Beekhof", "Willem Klerk",
-  "bij Siem en Marie --------------",
-  "logé Jan J", "logé Hendrika", "logé Jannetje", "logé Siem's tante"
+  "--------------",
+  "Siem's tante"
 ]
 function d(style, start, end, name) {
   return {
@@ -76,4 +77,5 @@ function d(style, start, end, name) {
 d3.gantt().taskTypes(names).taskStatus(taskStatus).tickFormat("%Y")(tasks)
 d3.selectAll(".tick line").attr("y1","-700") // lijn per decenium dwars over alle balken
 d3.selectAll(".bar").attr("height","10").attr("rx","2").attr("rx","2") // balkhoogte en -ronding
-d3.selectAll(".bar-r").attr("height","9").attr("y","6") // balkhoogte
+d3.selectAll(".bar-r").attr("y","5") // balkpositie relatie
+d3.selectAll(".bar-o").attr("height","6").attr("y","2") // dunnere balk voor logeerpartij
